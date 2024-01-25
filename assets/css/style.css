@@ -1,0 +1,625 @@
+/************ Body Css Start Here**************/
+:root {
+    --gold: #a7861b;
+    --white: #ffffff;
+    --gray: #a3a3a3; 
+    --light: #fbf7f4;
+    --black: #000;
+    --blue: #1a2438;
+  }
+  
+  * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+  .form-control:focus {
+      border-color: var(--black);
+      box-shadow: unset;
+  }
+  .btn {
+      background: var(--black);
+      color: var(--white);
+  }
+  .btn:hover {
+      background: var(--white);
+      color: var(--black);
+      border: 1px solid var(--black);
+  }
+  li{
+      list-style-type:none;
+  }
+  body{
+      font-family: 'Josefin Sans', sans-serif;
+      color: var(--gray);
+      background: var(--light);
+      letter-spacing: 0px;
+      line-height: 1.6em;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      letter-spacing: .015em;
+      line-height: 1.8em;
+  }
+  
+  a {
+      text-decoration: none;
+      color: var(--gray);
+  }
+  
+  /************ Body Css End Here**************/
+  
+  
+  /************ Header Css Start Here**************/
+  .logo-b img {
+      max-height: 150px;
+      max-width: 350px;
+  }
+  span.navbar-toggler-icon i {
+      color: var(--white);
+      font-size: 38px;
+  }
+  nav.top-nav {
+      padding: 20px 68px;
+      position: absolute;
+      top: 0px;
+      width: 100%;
+  }
+  
+  div#mynavbar {
+      justify-content: end;
+  }
+  
+  div#mynavbar ul.navbar-nav {
+      font-size: 13px;
+      gap: 20px;
+  }
+  
+  div#mynavbar ul.navbar-nav li {
+      text-align: right;
+  }
+  
+  div#mynavbar ul.navbar-nav li a {
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 2em;
+      color: var(--white);
+  }
+  
+  header {
+      background: var(--black);
+      position: relative;
+  }
+  
+  /************ Header Css End Here**************/
+  
+  
+  /************  Home Css End Here**************/
+  .banner-bottom-section {
+      padding: 100px 0px;
+      width: 75%;
+      margin: auto;
+  }
+  .instagram__section {
+      margin-bottom: 43px;
+  } 
+  .instagram__section h1 {
+      text-align: center;
+      margin-bottom: 43px;
+      font-weight: bold;
+      color: var(--gold);
+  }
+  .img-section img {
+        width: 100%;
+        margin: auto;
+        height: 320px;
+        object-fit: cover;
+    }
+  
+  .content-section {
+      text-align: center;
+      margin-top: 34px;
+  }
+  p.capture-left-img {
+    color: var(--gold);
+    padding-left: 54px;
+    font-weight: bold;
+}
+.color_nav {
+    justify-content: end;
+}
+.color_nav ul.navbar-nav li {
+    text-align: right;
+}
+.color_nav ul.navbar-nav {
+    font-size: 13px;
+    gap: 20px;
+}
+.color_nav ul.navbar-nav li a {
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 2em;
+    color: var(--white) !Important;
+}
+.para-content {
+    padding-left: 54px;
+    margin-top: 34px;
+}
+  .img-video-section {
+      margin-top: 43px;
+  }
+  
+  .img-video-child {
+      margin-bottom: 20px;
+  }
+  .img-section {
+      text-align: center;
+      position: relative;
+  }
+  .img-section:before {
+    content: '';
+    position: absolute;
+    top: 32px;
+    left: -32px;
+    background: #a3a3a3;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+  .photography-Showcase-section {
+      background: url('https://images.squarespace-cdn.com/content/v1/56f65cf85559866730c088c2/1541530435632-XO927BNZPFXG00TYK4ZZ/ezgif.com-video-to-gif.gif?format=1500w');
+      height: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .photography-Showcase-section span {
+      color: var(--white);
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 1.6em;
+      letter-spacing: .15px;
+  }
+  
+  .img-title {
+      text-align: center;
+      padding: 7px 0px;
+  }
+  
+  .img-gallery-child {
+      margin-bottom: 14px;
+  }
+  
+  .img-gallery-child img {
+      height: 463px;
+      width: 100%;
+      object-fit: cover;
+  }
+  
+  .after-img-gallery-img {
+      text-align: center;
+  }
+  
+  .after-img-gallery-img img {
+      width: 16%;
+  }
+  
+  .img-gallery-section {
+      margin-top: 52px;
+  }
+  
+  .img-gallery-child-two img {
+      height: 319px;
+      width: 100%;
+      object-fit: cover;
+  }
+  
+  .img--new-section {
+      padding: 3px;
+  }
+  .fixed-wedd-img {
+      background-image: url('../../assets/images/DSC02680.jpg');
+      height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  .insta-gallery-box {
+      width: 33.33%;
+      height: 293px;
+      margin-bottom: 5px;
+  }
+  .insta-gallery-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .instagram-gallery-section {
+      display: flex;
+      gap: 5px;
+  }
+  .logo__img____gallery {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+  }
+  .logo__img__box {
+      width: 16.66%;
+      margin-bottom: 5px;
+  }
+  .logo__img__box img {
+      width: 100%;
+  }
+  .logo__img__section {
+      margin-top: 43px;
+  }
+  /************  Home Css End Here**************/
+  
+  
+  /************  Testimonial Css Start Here**************/
+  :root {
+              --dark-green: #9cc675;
+        --dark-yellow: #e89a3d;
+        --extra-light-brown:#fdf0d7;
+        --light-brown: #ecd5ab;
+        --dark-brown:#915b40;
+        --light-yellow:#f8e3a8;
+        --light-red:#f3ac99;
+        --light-teal:#a6c8cc;
+        --light-gray:#ddd5d6;
+              --theme-color2: #1a2438;
+          }
+  .spacer .site-logo {
+       width: 218.33px !important;
+       margin-right: 50px;
+  }
+  .spacer .btn {
+       border-radius: 5px;
+       font-weight: normal;
+       font-size: 15px;
+       letter-spacing: 0.02em;
+       line-height: 12px;
+       text-align: center;
+       font-weight: 600;
+       font-size: 14px;
+       padding: 14px 30px;
+       cursor: pointer;
+  }
+  .spacer .btn-theme {
+       background: var(--theme-color1);
+       color: #212121;
+  }
+  
+  .spacer .c-container {
+      margin: auto;
+      width: 93%;
+      position: relative;
+      z-index: 1;
+  }
+  
+  .spacer .btn-outline-white {
+      color: #fff;
+      background-color: rgba(255, 255, 255, 0.1);
+      background-image: none;
+      border-width: 2px;
+      border-color: #fff;
+      font-weight: 500;
+      -webkit-transition: all .2s;
+      transition: all .2s;
+  }
+  .spacer .btn {
+      border-radius: 5px;
+      font-weight: normal;
+      font-size: 15px;
+      letter-spacing: 0.02em;
+      line-height: 12px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 14px;
+      padding: 14px 30px;
+      cursor: pointer;
+  }
+  .spacer .btn-outline-white:hover {
+      background-color: #fff;
+      color: var(--text-dark);
+  }
+  /* common css up */
+  
+  .spacer .testimonial p {
+       font-size: 28px;
+       letter-spacing: 0.02em;
+       line-height: 35px;
+  }
+  .spacer .testimonial .name {
+       font-weight: bold;
+       font-size: 18px;
+       letter-spacing: 0.04em;
+       line-height: 35px;
+       text-align: left;
+  }
+  .spacer .testimonial .designation {
+       font-size: 14px;
+       letter-spacing: 0.04em;
+       text-align: left;
+       color: #fff;
+       opacity: 0.65;
+  }
+  .spacer .unt {
+       margin-bottom: 20px;
+       margin-top: 60px;
+  }
+  .spacer .hero-text {
+       font-size: 30px;
+       letter-spacing: 0.02em;
+       color: #fff;
+  }
+  .spacer .gallery-thumbs {
+       height: 100%;
+  }
+  .spacer .gallery-thumbs .swiper-wrapper {
+       align-items: center;
+  }
+  .spacer .gallery-thumbs .swiper-slide {
+       background-position: center;
+       background-size: cover;
+       width: 250px !important;
+       height: 330px;
+       position: relative;
+  }
+  .spacer .gallery-thumbs .swiper-slide img {
+       filter: contrast(0.5) blur(1px);
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       border-radius: 10px;
+  }
+  .spacer .gallery-thumbs .swiper-slide-active img {
+       filter: contrast(1) blur(0px) !important;
+  }
+  .spacer .flex-row {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+       margin-right: -15px;
+       margin-left: -15px;
+  }
+  .spacer .flex-row .flex-col {
+       -ms-flex-preferred-size: 0;
+       flex-basis: 0;
+       -webkit-box-flex: 1;
+       -ms-flex-positive: 1;
+       flex-grow: 1;
+       max-width: 100%;
+       position: relative;
+       width: 100%;
+       min-height: 1px;
+       padding-right: 15px;
+       padding-left: 15px;
+  }
+  
+  .spacer .gallery-thumbs .swiper-wrapper {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+  }
+  
+  
+  .spacer .testimonial-section .quote {
+      width: 75%;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+  .spacer .swiper-container.testimonial {
+      height: 70vh;
+  }
+  .spacer .testimonial-section .user-saying {
+      background: var(--theme-color2);
+      width: 60%;
+      color: #fff;
+      height: 100%;
+  }
+  .spacer .testi-user-img {
+      width: 40%;
+  }
+  .spacer .testimonial-section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      width: 100%;
+      height: 100%;
+  }
+  .spacer .testimonial-section .quote p {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 1.8;
+      font-style: italic;
+      margin: 0;
+  }
+  .spacer .quote-icon {
+      width: 38px;
+      display: block;
+      margin-bottom: 30px;
+  }
+  /************  Testimonial Css End Here**************/
+  
+  
+  /************ Innerpage Css Start Here**************/
+  .banner-top-img {
+      width: 100%;
+      height: 700px;
+      position: relative;
+      background-attachment: fixed;
+      background-position: 100% 20%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+  }
+  .inner-ban {
+      background: url(../../assets/images/GFP01337.jpg);
+      background-attachment: fixed;
+      background-position: 100% 11%;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .banner-text {
+      text-align: center;
+      color: var(--white);
+  }
+  .block-text {
+      text-align: center;
+  }
+  .audio-text {
+      text-align: center;
+      margin-bottom: 43px;
+  }
+  audio#aud-ply {
+      width: 81%;
+  }
+  audio::-webkit-media-controls-play-button,
+       audio::-webkit-media-controls-panel {
+       background-color: var(--black);
+       color: var(--white);
+  }
+  .inner-container-img img {
+      margin-bottom: 5px;
+      width: 100%;
+  }
+  .inner-container-img {
+      width: 81%;
+      margin: auto;
+  }
+  .inner-double-img {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: center; 
+  }
+  .inner-double-img img {
+      height: 437px;
+      width: 100%;
+  }
+  .left-img img {
+      padding: 20px 0px;
+  }
+  .inner-thtree-img {
+      display: flex;
+      gap: 5px;
+  }
+  /************ Innerpage Css End Here**************/
+  
+  
+  /************ Contact Css Start Here**************/
+  .contact-ban {
+      background: url('../../assets/images/DSC03582.jpg');
+      background-attachment: fixed;
+      background-position: 100% 43%;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .contact-heading h3 {
+      color: var(--gold);
+      margin-bottom: 43px;
+      margin-top: 43px;
+  }
+  /************ Contact Css End Here**************/
+  
+  
+  /************ Photography Css Start Here**************/
+  .photography-ban {
+      background: url('https://images.squarespace-cdn.com/content/v1/56f65cf85559866730c088c2/1541530435632-XO927BNZPFXG00TYK4ZZ/ezgif.com-video-to-gif.gif?format=1500w');
+      background-attachment: fixed;
+      background-position: 100% 20%;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .photograpy.section 
+   .img-gallery-child img {
+      height: 212px !important;
+  }
+  a.read-more-link {
+      color: var(--black);
+  }
+  /************ Photography Css End Here**************/
+  
+  
+  /************ Footer Css Start Here**************/
+  footer {
+      background: var(--blue);
+      padding: 74px 0px;
+  }
+  .footer-one img {
+      width: 100%;
+  }
+  .footer-logo {
+      margin-left: -13px;
+      width: 207px;
+      height: 98px;
+      margin-top: -43px;
+  }
+  .footer-one img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+  .social-media-icon ul {
+      display: flex;
+      padding-left: 0px;
+      gap: 20px;
+  }
+  .social-media-icon ul li {
+      background: var(--white);
+      width: 38px;
+      height: 38px;
+      line-height: 43px;
+      text-align: center;
+  }
+  .social-media-icon ul li i {
+      font-size: 18px;
+      color: var(--blue);
+  }
+  
+  .social-media-icon ul li:hover {
+      background: var(--blue);
+      border: 1px solid var(--white);
+  }
+  .social-media-icon ul li:hover i {
+      color: var(--white);
+  }
+  .footer-two h4 {
+      color: var(--white);
+  }
+  .footer-two ul {
+      padding-left: 0px;
+  }
+  .copyright {
+      margin-top: 43px;
+      text-align: center;
+  }
+  .copyright p {
+      margin-bottom: 0px;
+  }
+  /************ Footer Css End Here**************/
